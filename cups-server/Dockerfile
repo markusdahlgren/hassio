@@ -1,7 +1,7 @@
-ARG BUILD_FROM
-FROM $BUILD_FROM
+#ARG BUILD_FROM
+#FROM $BUILD_FROM
 
-#FROM alpine
+FROM alpine
 
 
 # Set environment
@@ -27,7 +27,7 @@ RUN chmod 755 /srv/run.sh
 EXPOSE 631/tcp
 
 # Expose avahi advertisement
-#EXPOSE 5353/udp
+EXPOSE 5353/udp
 
 # Start CUPS instance
 CMD /srv/run.sh
