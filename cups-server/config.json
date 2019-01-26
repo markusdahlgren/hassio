@@ -7,7 +7,7 @@
   "webui": "https://[HOST]:[PORT:631]",
   "boot": "auto",
   "host_network": true,
-  "privileged": "SYS_ADMIN",
+  "privileged": ["SYS_ADMIN"],
   "devices": ["/dev/ttyAMA0:/dev/ttyAMA0:rwm"],
   "options": {
     "CUPS_ENV_HOST": "hassio",
