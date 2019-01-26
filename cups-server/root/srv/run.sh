@@ -24,7 +24,7 @@ CUPS_ENV_DEBUG="$(jq --raw-output '.CUPS_ENV_DEBUG' $CONFIG_PATH)"
 
 
 ### Enable debug if debug flag is true ###
-if [ "${CUPS_ENV_DEBUG}" = true ]; then
+if [ "${CUPS_ENV_DEBUG}" = "true" ]; then
   set -ex
 fi
 
