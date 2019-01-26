@@ -4,4 +4,4 @@ Some addons for home assistant.
 
 ## Add-on for hassio
 
-* CUPS-server
+* CUPS-server - not working.. !! =) Under construction.. 
