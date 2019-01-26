@@ -1,6 +1,6 @@
 {
   "name": "CUPS-Server-2",
-  "version": "0.1",
+  "version": "0.1.1",
   "slug": "cups_server2",
   "description": "CUPS-server addon for hass.io! Secund try.. :D",
   "startup": "system",
