@@ -1,6 +1,4 @@
-﻿# CUPS-server addon.
-
-
+## CUPS-server addon.
 
 This plug-in is a copy of thbe´s docker version.
 https://github.com/thbe/docker-cups
@@ -8,8 +6,6 @@ https://github.com/thbe/docker-cups
 
 
 ## Options
-
-  
 
 "CUPS_ENV_HOST": - Hostname of server, not needed
   
