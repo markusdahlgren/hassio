@@ -1,5 +1,5 @@
-#ARG BASE_USER
-#ARG MAINTAINER
+ARG BASE_USER
+ARG MAINTAINER
 FROM ${BASE_USER}/debian:testing
 MAINTAINER $MAINTAINER
 
@@ -38,4 +38,4 @@ RUN /usr/sbin/cupsd \
   && kill $(cat /var/run/cups/cupsd.pid)
 
 # Default shell
-CMD ["/usr/sbin/cupsd", "-f"]
+CMD "/usr/sbin/cupsd", "-f"
