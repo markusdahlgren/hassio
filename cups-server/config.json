@@ -1,6 +1,6 @@
 {
   "name": "CUPS-Server",
-  "version": "0.19.3",
+  "version": "0.19.4",
   "slug": "cups_server",
   "description": "CUPS-server addon for hass.io!",
   "startup": "system",
@@ -8,7 +8,7 @@
   "boot": "auto",
   "host_network": true,
   "privileged": ["SYS_ADMIN"],
-  "devices": ["/dev:/dev:rwm"],
+  "devices": ["/dev/ttyAMA0:/dev/ttyAMA0:rwm"],
   "options": {
     "CUPS_ENV_HOST": "hassio",
     "CUPS_ENV_PASSWORD": "changeme",
