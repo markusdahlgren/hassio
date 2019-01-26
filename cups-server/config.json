@@ -8,7 +8,7 @@
   "boot": "auto",
   "host_network": true,
   "privileged": ["SYS_ADMIN"],
-  "devices": ["/dev/ttyAMA0:/dev/ttyAMA0:rwm"],
+  "host_dbus": true,
   "options": {
     "CUPS_ENV_HOST": "hassio",
     "CUPS_ENV_PASSWORD": "changeme",
