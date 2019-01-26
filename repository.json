@@ -1,4 +1,5 @@
 {
-  "name": "CUPS-server",
-  "url": "https://github.com/markusdahlgren/hassio"
+  "name": "Hassio addons",
+  "url": "https://github.com/markusdahlgren/hassio",
+  "maintainer": "Markus Dahlgren <markus@dahlgrens.nu>"
 }
